@@ -1,6 +1,6 @@
 FROM node:16-alpine
 WORKDIR /app
-COPY package*.json ./
+COPY pacakge*.json ./
 RUN npm install
 COPY . .
-CMD ["node", "index.js"]
+CMD ["node", "indes.js"]
